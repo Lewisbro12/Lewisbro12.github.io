@@ -1,8 +1,6 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-image: url('https://cdn.discordapp.com/avatars/295206836972552203/ed8d84daaa6282d898c7c12c1009967c.png?size=1024');
-    background-color: lime;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';

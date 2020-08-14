@@ -12,7 +12,7 @@ if( hr > 12 ) {
     ampm = "pm";
 }
 var date = d.getDate();
-function thstndrd(date) {
+function thstndrd(n) {
     return ["st","nd","rd"][(((n < 0 ? -n : n) + 90 ) % 100 - 10) % 10 - 1] || "th";
 }
 var month = months[d.getMonth()];
@@ -20,4 +20,4 @@ var year = d.getFullYear();
 var x = document.getElementById("time");
 var z = document.getElementById("date");
 x.innerHTML = hr + ":" + min + ampm;
-z.innerHTML = date + thstndrd + " " + day + " " + month + " " + year;
+z.innerHTML = date + thstndrd(date) + " " + day + " " + month + " " + year;

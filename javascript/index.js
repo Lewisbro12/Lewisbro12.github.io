@@ -20,4 +20,4 @@ var year = d.getFullYear();
 var x = document.getElementById("time");
 var z = document.getElementById("date");
 x.innerHTML = hr + ":" + min + ampm;
-z.innerHTML = day + " " + date + thstndrd + " " + month + " " + year;
+z.innerHTML = date + thstndrd + day + " " + month + " " + year;
